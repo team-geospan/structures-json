@@ -1,0 +1,443 @@
+{
+  "kind": "structure",
+  "projection": "crs84",
+  "points": {
+    "c101": {
+      "kind": "corner",
+      "coordinates": [
+        -85.68721167889062,
+        38.163008462549186,
+        146.32814284879714
+      ]
+    },
+    "c102": {
+      "kind": "corner",
+      "coordinates": [
+        -85.68726217120404,
+        38.16305201341517,
+        144.65182468295097
+      ]
+    },
+    "c103": {
+      "kind": "corner",
+      "coordinates": [
+        -85.68711213030325,
+        38.16304534841584,
+        144.65182465407997
+      ]
+    },
+    "c104": {
+      "kind": "corner",
+      "coordinates": [
+        -85.68716841617906,
+        38.163006540763135,
+        146.32814284879714
+      ]
+    },
+    "c105": {
+      "kind": "corner",
+      "coordinates": [
+        -85.68711799596379,
+        38.16296303712335,
+        144.6518246959895
+      ]
+    },
+    "c106": {
+      "kind": "corner",
+      "coordinates": [
+        -85.68712504975262,
+        38.16296335046557,
+        144.65182465314865
+      ]
+    },
+    "c107": {
+      "kind": "corner",
+      "coordinates": [
+        -85.68715286739344,
+        38.16298795081151,
+        145.59970639646053
+      ]
+    },
+    "c108": {
+      "kind": "corner",
+      "coordinates": [
+        -85.68718405273628,
+        38.162965967496476,
+        144.65182465314865
+      ]
+    },
+    "c109": {
+      "kind": "corner",
+      "coordinates": [
+        -85.68726803669642,
+        38.16296970211528,
+        144.6518247248605
+      ]
+    },
+    "c110": {
+      "kind": "corner",
+      "coordinates": [
+        -85.68718516568032,
+        38.16295035359559,
+        144.65182465221733
+      ]
+    },
+    "c111": {
+      "kind": "corner",
+      "coordinates": [
+        -85.68715398198339,
+        38.16297230993902,
+        145.59970639739186
+      ]
+    },
+    "c112": {
+      "kind": "corner",
+      "coordinates": [
+        -85.68712616261857,
+        38.16294773386365,
+        144.65182465314865
+      ]
+    },
+    "ground": {
+      "kind": "ground",
+      "coordinates": [
+        -85.68726803669642,
+        38.16294773386366,
+        141.60397338867188
+      ]
+    }
+  },
+  "edges": {
+    "e101": {
+      "kind": "hip",
+      "points": [
+        "c101",
+        "c102"
+      ],
+      "properties": {
+        "length": 6.765
+      }
+    },
+    "e104": {
+      "kind": "ridge",
+      "points": [
+        "c101",
+        "c104"
+      ],
+      "properties": {
+        "length": 3.798
+      }
+    },
+    "e102": {
+      "kind": "eave",
+      "points": [
+        "c102",
+        "c103"
+      ],
+      "properties": {
+        "attachments": [
+          "gutter"
+        ],
+        "length": 13.17
+      }
+    },
+    "e111": {
+      "kind": "eave",
+      "points": [
+        "c102",
+        "c109"
+      ],
+      "properties": {
+        "attachments": [
+          "gutter"
+        ],
+        "length": 9.151
+      }
+    },
+    "e103": {
+      "kind": "hip",
+      "points": [
+        "c104",
+        "c103"
+      ],
+      "properties": {
+        "length": 6.76
+      }
+    },
+    "e105": {
+      "kind": "hip",
+      "points": [
+        "c104",
+        "c105"
+      ],
+      "properties": {
+        "length": 6.757
+      }
+    },
+    "e106": {
+      "kind": "eave",
+      "points": [
+        "c105",
+        "c106"
+      ],
+      "properties": {
+        "attachments": [
+          "gutter"
+        ],
+        "length": 0.619
+      }
+    },
+    "e107": {
+      "kind": "valley",
+      "points": [
+        "c107",
+        "c106"
+      ],
+      "properties": {
+        "length": 3.781
+      }
+    },
+    "e108": {
+      "kind": "valley",
+      "points": [
+        "c107",
+        "c108"
+      ],
+      "properties": {
+        "length": 3.785
+      }
+    },
+    "e116": {
+      "kind": "ridge",
+      "points": [
+        "c107",
+        "c111"
+      ],
+      "properties": {
+        "length": 1.739
+      }
+    },
+    "e109": {
+      "kind": "eave",
+      "points": [
+        "c108",
+        "c109"
+      ],
+      "properties": {
+        "attachments": [
+          "gutter"
+        ],
+        "length": 7.372
+      }
+    },
+    "e117": {
+      "kind": "eave",
+      "points": [
+        "c108",
+        "c110"
+      ],
+      "properties": {
+        "attachments": [
+          "gutter"
+        ],
+        "length": 1.736
+      }
+    },
+    "e110": {
+      "kind": "hip",
+      "points": [
+        "c109",
+        "c101"
+      ],
+      "properties": {
+        "length": 6.761
+      }
+    },
+    "e112": {
+      "kind": "eave",
+      "points": [
+        "c103",
+        "c105"
+      ],
+      "properties": {
+        "attachments": [
+          "gutter"
+        ],
+        "length": 9.151
+      }
+    },
+    "e113": {
+      "kind": "hip",
+      "points": [
+        "c111",
+        "c110"
+      ],
+      "properties": {
+        "length": 3.783
+      }
+    },
+    "e114": {
+      "kind": "hip",
+      "points": [
+        "c111",
+        "c112"
+      ],
+      "properties": {
+        "length": 3.78
+      }
+    },
+    "e115": {
+      "kind": "eave",
+      "points": [
+        "c110",
+        "c112"
+      ],
+      "properties": {
+        "attachments": [
+          "gutter"
+        ],
+        "length": 5.179
+      }
+    },
+    "e118": {
+      "kind": "eave",
+      "points": [
+        "c106",
+        "c112"
+      ],
+      "properties": {
+        "attachments": [
+          "gutter"
+        ],
+        "length": 1.736
+      }
+    }
+  },
+  "surfaces": {
+    "surface1": {
+      "kind": "roof",
+      "edges": [
+        [
+          "e101",
+          "e102",
+          "e103",
+          "e104"
+        ]
+      ],
+      "properties": {
+        "material": "asphalt",
+        "pitch": 4,
+        "area": 41.361
+      }
+    },
+    "surface2": {
+      "kind": "roof",
+      "edges": [
+        [
+          "e104",
+          "e105",
+          "e106",
+          "e107",
+          "e108",
+          "e109",
+          "e110"
+        ]
+      ],
+      "properties": {
+        "material": "asphalt",
+        "pitch": 4,
+        "area": 34.184
+      }
+    },
+    "surface3": {
+      "kind": "roof",
+      "edges": [
+        [
+          "e110",
+          "e111",
+          "e101"
+        ]
+      ],
+      "properties": {
+        "material": "asphalt",
+        "pitch": 4,
+        "area": 22.787
+      }
+    },
+    "surface4": {
+      "kind": "roof",
+      "edges": [
+        [
+          "e112",
+          "e105",
+          "e103"
+        ]
+      ],
+      "properties": {
+        "material": "asphalt",
+        "pitch": 4,
+        "area": 22.759
+      }
+    },
+    "surface5": {
+      "kind": "roof",
+      "edges": [
+        [
+          "e113",
+          "e114",
+          "e115"
+        ]
+      ],
+      "properties": {
+        "material": "asphalt",
+        "pitch": 4,
+        "area": 7.134
+      }
+    },
+    "surface6": {
+      "kind": "roof",
+      "edges": [
+        [
+          "e108",
+          "e116",
+          "e113",
+          "e117"
+        ]
+      ],
+      "properties": {
+        "material": "asphalt",
+        "pitch": 4,
+        "area": 4.794
+      }
+    },
+    "surface7": {
+      "kind": "roof",
+      "edges": [
+        [
+          "e118",
+          "e114",
+          "e116",
+          "e107"
+        ]
+      ],
+      "properties": {
+        "material": "asphalt",
+        "pitch": 4,
+        "area": 4.788
+      }
+    }
+  },
+  "components": {
+    "roof": {
+      "surfaces": [
+        "surface1",
+        "surface2",
+        "surface3",
+        "surface4",
+        "surface5",
+        "surface6",
+        "surface7"
+      ]
+    }
+  }
+}
