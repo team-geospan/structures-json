@@ -8,105 +8,57 @@
         "c101": {
           "kind": "corner",
           "coordinates": [
-            -91.48396612227242,
-            43.63496088704256,
-            323.7437952728942
+            -93.61882392040766,
+            41.551661938912716,
+            274.91061367932707
           ]
         },
         "c102": {
           "kind": "corner",
           "coordinates": [
-            -91.48396612226762,
-            43.63502932764593,
-            323.74379527475685
+            -93.61882526151216,
+            41.55155856532924,
+            274.91061367839575
           ]
         },
         "c103": {
           "kind": "corner",
           "coordinates": [
-            -91.48391870405636,
-            43.63502934333277,
-            324.4295618068427
+            -93.6188795602799,
+            41.551599470213404,
+            276.8917168369517
           ]
         },
         "c104": {
           "kind": "corner",
           "coordinates": [
-            -91.483918704115,
-            43.63496088658397,
-            324.429561810568
+            -93.61887926964015,
+            41.551621874456885,
+            276.89171683602035
           ]
         },
         "c105": {
           "kind": "corner",
           "coordinates": [
-            -91.48389386091472,
-            43.63502939651318,
-            325.2677208473906
+            -93.61893490991461,
+            41.55155936796519,
+            274.91061367839575
           ]
         },
         "c106": {
           "kind": "corner",
           "coordinates": [
-            -91.48386624569154,
-            43.63502939538078,
-            324.35336557310075
-          ]
-        },
-        "c107": {
-          "kind": "corner",
-          "coordinates": [
-            -91.4838662458098,
-            43.63496088605367,
-            324.35335670784116
-          ]
-        },
-        "c108": {
-          "kind": "corner",
-          "coordinates": [
-            -91.4838938610016,
-            43.63496088633582,
-            325.2677208473906
-          ]
-        },
-        "c109": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48398786455019,
-            43.634962941405774,
-            322.8294398067519
-          ]
-        },
-        "c110": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48398786457304,
-            43.635027133191926,
-            322.8294398179278
-          ]
-        },
-        "c111": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48396185107322,
-            43.635027132947236,
-            323.43901006970555
-          ]
-        },
-        "c112": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48396185107713,
-            43.634962949705155,
-            323.43901005759835
+            -93.61893356898477,
+            41.55166274154993,
+            274.91061367839575
           ]
         },
         "ground": {
           "kind": "ground",
           "coordinates": [
-            -91.48398786457304,
-            43.634960886053676,
-            321.6102905264124
+            -93.61893490991463,
+            41.55155856532924,
+            271.4817810058594
           ]
         }
       },
@@ -121,140 +73,96 @@
             "attachments": [
               "gutter"
             ],
-            "length": 7.604
-          }
-        },
-        "e102": {
-          "kind": "rake",
-          "points": [
-            "c102",
-            "c103"
-          ],
-          "properties": {
-            "length": 3.888
-          }
-        },
-        "e103": {
-          "kind": "",
-          "points": [
-            "c104",
-            "c103"
-          ],
-          "properties": {
-            "length": 7.606
+            "length": 11.482
           }
         },
         "e104": {
-          "kind": "rake",
+          "kind": "hip",
           "points": [
-            "c104",
-            "c101"
-          ],
-          "properties": {
-            "length": 3.888
-          }
-        },
-        "e105": {
-          "kind": "rake",
-          "points": [
-            "c105",
-            "c106"
-          ],
-          "properties": {
-            "length": 2.409
-          }
-        },
-        "e106": {
-          "kind": "eave",
-          "points": [
-            "c106",
-            "c107"
-          ],
-          "properties": {
-            "attachments": [
-              "gutter"
-            ],
-            "length": 7.612
-          }
-        },
-        "e107": {
-          "kind": "rake",
-          "points": [
-            "c107",
-            "c108"
-          ],
-          "properties": {
-            "length": 2.409
-          }
-        },
-        "e108": {
-          "kind": "ridge",
-          "points": [
-            "c108",
-            "c105"
-          ],
-          "properties": {
-            "length": 7.612
-          }
-        },
-        "e110": {
-          "kind": "rake",
-          "points": [
-            "c108",
+            "c101",
             "c104"
           ],
           "properties": {
-            "length": 2.173
+            "length": 6.712
           }
         },
-        "e109": {
-          "kind": "rake",
+        "e102": {
+          "kind": "hip",
+          "points": [
+            "c103",
+            "c102"
+          ],
+          "properties": {
+            "length": 6.715
+          }
+        },
+        "e107": {
+          "kind": "hip",
           "points": [
             "c103",
             "c105"
           ],
           "properties": {
-            "length": 2.173
+            "length": 6.715
           }
         },
-        "e111": {
+        "e103": {
+          "kind": "ridge",
+          "points": [
+            "c104",
+            "c103"
+          ],
+          "properties": {
+            "length": 2.489
+          }
+        },
+        "e105": {
           "kind": "eave",
           "points": [
-            "c109",
-            "c110"
+            "c105",
+            "c106"
           ],
           "properties": {
-            "length": 7.132
+            "attachments": [
+              "gutter"
+            ],
+            "length": 11.482
           }
         },
-        "e114": {
-          "kind": "rake",
+        "e106": {
+          "kind": "hip",
           "points": [
-            "c109",
-            "c112"
+            "c106",
+            "c104"
           ],
           "properties": {
-            "length": 2.186
+            "length": 6.712
           }
         },
-        "e112": {
-          "kind": "rake",
+        "e109": {
+          "kind": "eave",
           "points": [
-            "c111",
-            "c110"
+            "c106",
+            "c101"
           ],
           "properties": {
-            "length": 2.186
+            "attachments": [
+              "gutter"
+            ],
+            "length": 9.149
           }
         },
-        "e113": {
-          "kind": "flash",
+        "e108": {
+          "kind": "eave",
           "points": [
-            "c111",
-            "c112"
+            "c102",
+            "c105"
           ],
           "properties": {
-            "length": 7.131
+            "attachments": [
+              "gutter"
+            ],
+            "length": 9.149
           }
         }
       },
@@ -270,9 +178,9 @@
             ]
           ],
           "properties": {
-            "material": "metal",
-            "pitch": 2,
-            "area": 29.567
+            "material": "asphalt",
+            "pitch": 5,
+            "area": 34.823
           }
         },
         "surface2": {
@@ -281,46 +189,44 @@
             [
               "e105",
               "e106",
-              "e107",
-              "e108"
+              "e103",
+              "e107"
             ]
           ],
           "properties": {
-            "material": "metal",
+            "material": "asphalt",
             "pitch": 5,
-            "area": 18.337
+            "area": 34.822
           }
         },
         "surface3": {
           "kind": "roof",
           "edges": [
             [
-              "e109",
               "e108",
-              "e110",
-              "e103"
+              "e107",
+              "e102"
             ]
           ],
           "properties": {
-            "material": "metal",
+            "material": "asphalt",
             "pitch": 5,
-            "area": 16.534
+            "area": 22.487
           }
         },
         "surface4": {
           "kind": "roof",
           "edges": [
             [
-              "e111",
-              "e112",
-              "e113",
-              "e114"
+              "e104",
+              "e106",
+              "e109"
             ]
           ],
           "properties": {
             "material": "asphalt",
-            "pitch": 3,
-            "area": 15.589
+            "pitch": 5,
+            "area": 22.469
           }
         }
       },
@@ -339,652 +245,146 @@
       "kind": "structure",
       "projection": "crs84",
       "points": {
-        "c113": {
+        "c107": {
           "kind": "corner",
           "coordinates": [
-            -91.48394271881901,
-            43.634818029630644,
-            363.9035492679104
+            -93.61879616596792,
+            41.55163537343857,
+            273.9359006443992
           ]
         },
-        "c114": {
+        "c108": {
           "kind": "corner",
           "coordinates": [
-            -91.48398772251691,
-            43.63485031420161,
-            361.465274178423
+            -93.61874834770106,
+            41.551599189062365,
+            275.76461140066385
           ]
         },
-        "c115": {
+        "c109": {
           "kind": "corner",
           "coordinates": [
-            -91.48398784651216,
-            43.634868486692426,
-            360.09281451255083
+            -93.61879648100384,
+            41.55156321360269,
+            273.93590064533055
           ]
         },
-        "c116": {
+        "c110": {
           "kind": "corner",
           "coordinates": [
-            -91.483870747114,
-            43.63486848672197,
-            360.09280280023813
+            -93.61870055960424,
+            41.55156297725834,
+            273.93590064067394
           ]
         },
-        "c117": {
+        "c111": {
           "kind": "corner",
           "coordinates": [
-            -91.48387059410479,
-            43.63485031423105,
-            361.46526826173067
-          ]
-        },
-        "c118": {
-          "kind": "corner",
-          "coordinates": [
-            -91.4839184251572,
-            43.63481802963702,
-            363.9035492660478
-          ]
-        },
-        "c119": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48387059411651,
-            43.634771756083346,
-            361.46526850387454
-          ]
-        },
-        "c120": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48391842514886,
-            43.634805084558415,
-            363.90354931447655
-          ]
-        },
-        "c121": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48394271880545,
-            43.634805069157316,
-            363.9035493172705
-          ]
-        },
-        "c122": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48398772237606,
-            43.63477175603257,
-            361.4652744224295
-          ]
-        },
-        "c123": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48389341155668,
-            43.634771756082884,
-            361.4652685606852
-          ]
-        },
-        "c124": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48392921007125,
-            43.63479758137155,
-            363.35462366975844
-          ]
-        },
-        "c125": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48396495383814,
-            43.634771756051215,
-            361.46527200751007
-          ]
-        },
-        "c126": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48394978673824,
-            43.634775457281044,
-            359.17937996890396
-          ]
-        },
-        "c127": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48390815819107,
-            43.63477545729153,
-            359.17937996797264
-          ]
-        },
-        "c128": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48387673941836,
-            43.634752875923525,
-            358.72219195216894
-          ]
-        },
-        "c129": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48398119914482,
-            43.634752875897476,
-            358.72220236621797
-          ]
-        },
-        "c130": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48392923510296,
-            43.63477175607353,
-            363.3549362178892
-          ]
-        },
-        "c131": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48398129723799,
-            43.63477545726288,
-            358.72220162674785
-          ]
-        },
-        "c132": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48387673941001,
-            43.63477545728925,
-            358.7221891442314
-          ]
-        },
-        "c133": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48387076561927,
-            43.634797676096014,
-            358.95079107396305
-          ]
-        },
-        "c134": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48386792699985,
-            43.634799782911536,
-            358.64600594807416
-          ]
-        },
-        "c135": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48386792700869,
-            43.63478327778483,
-            358.6460060114041
-          ]
-        },
-        "c136": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48387076563101,
-            43.63478535558027,
-            358.95079114753753
-          ]
-        },
-        "c137": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48387555653918,
-            43.634785355551685,
-            358.95079111959785
-          ]
-        },
-        "c138": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48387550502896,
-            43.63479767606774,
-            358.9507910432294
-          ]
-        },
-        "c139": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48387556951667,
-            43.634783277786745,
-            358.6460059788078
-          ]
-        },
-        "c140": {
-          "kind": "corner",
-          "coordinates": [
-            -91.48387543370177,
-            43.634799782913454,
-            358.6460059136152
+            -93.61870024446165,
+            41.55163513709395,
+            273.93590064067394
           ]
         },
         "ground": {
           "kind": "ground",
           "coordinates": [
-            -91.48398784651216,
-            43.63475287589749,
-            321.6102905292064
+            -93.61879648100384,
+            41.55156297725834,
+            271.4817810058594
           ]
         }
       },
       "edges": {
-        "e115": {
+        "e110": {
           "kind": "hip",
           "points": [
-            "c113",
-            "c114"
+            "c107",
+            "c108"
           ],
           "properties": {
-            "length": 5.657
-          }
-        },
-        "e126": {
-          "kind": "flat-roof",
-          "points": [
-            "c113",
-            "c121"
-          ],
-          "properties": {
-            "length": 1.44
-          }
-        },
-        "e116": {
-          "kind": "rake",
-          "points": [
-            "c114",
-            "c115"
-          ],
-          "properties": {
-            "length": 2.441
-          }
-        },
-        "e124": {
-          "kind": "eave",
-          "points": [
-            "c114",
-            "c122"
-          ],
-          "properties": {
-            "attachments": [
-              "gutter"
-            ],
-            "length": 8.729
+            "length": 5.951
           }
         },
         "e117": {
           "kind": "eave",
           "points": [
-            "c116",
-            "c115"
+            "c107",
+            "c111"
           ],
           "properties": {
             "attachments": [
               "gutter"
             ],
-            "length": 9.45
+            "length": 8.003
           }
         },
-        "e118": {
-          "kind": "rake",
+        "e111": {
+          "kind": "hip",
           "points": [
-            "c117",
-            "c116"
+            "c109",
+            "c108"
           ],
           "properties": {
-            "length": 2.441
+            "length": 5.953
           }
         },
-        "e121": {
+        "e112": {
           "kind": "eave",
           "points": [
-            "c117",
-            "c119"
+            "c109",
+            "c107"
           ],
           "properties": {
             "attachments": [
               "gutter"
             ],
-            "length": 8.729
+            "length": 8.015
           }
         },
-        "e119": {
+        "e113": {
           "kind": "hip",
           "points": [
-            "c118",
-            "c117"
+            "c108",
+            "c110"
           ],
           "properties": {
-            "length": 5.806
+            "length": 5.951
           }
         },
-        "e120": {
-          "kind": "flat-roof",
-          "points": [
-            "c118",
-            "c113"
-          ],
-          "properties": {
-            "length": 1.961
-          }
-        },
-        "e122": {
-          "kind": "hip",
-          "points": [
-            "c120",
-            "c119"
-          ],
-          "properties": {
-            "length": 5.879
-          }
-        },
-        "e123": {
-          "kind": "flat-roof",
-          "points": [
-            "c120",
-            "c118"
-          ],
-          "properties": {
-            "length": 1.438
-          }
-        },
-        "e125": {
-          "kind": "hip",
-          "points": [
-            "c121",
-            "c122"
-          ],
-          "properties": {
-            "length": 5.73
-          }
-        },
-        "e129": {
-          "kind": "flat-roof",
-          "points": [
-            "c121",
-            "c120"
-          ],
-          "properties": {
-            "length": 1.961
-          }
-        },
-        "e127": {
-          "kind": "valley",
-          "points": [
-            "c124",
-            "c123"
-          ],
-          "properties": {
-            "length": 4.489
-          }
-        },
-        "e128": {
-          "kind": "valley",
-          "points": [
-            "c124",
-            "c125"
-          ],
-          "properties": {
-            "length": 4.486
-          }
-        },
-        "e137": {
-          "kind": "ridge",
-          "points": [
-            "c124",
-            "c130"
-          ],
-          "properties": {
-            "length": 2.869
-          }
-        },
-        "e130": {
+        "e114": {
           "kind": "eave",
           "points": [
-            "c119",
-            "c123"
+            "c110",
+            "c109"
           ],
           "properties": {
             "attachments": [
               "gutter"
             ],
-            "length": 1.841
+            "length": 8.003
           }
         },
-        "e131": {
+        "e115": {
+          "kind": "hip",
+          "points": [
+            "c111",
+            "c108"
+          ],
+          "properties": {
+            "length": 5.949
+          }
+        },
+        "e116": {
           "kind": "eave",
           "points": [
-            "c125",
-            "c122"
+            "c111",
+            "c110"
           ],
           "properties": {
             "attachments": [
               "gutter"
             ],
-            "length": 1.837
-          }
-        },
-        "e138": {
-          "kind": "rake",
-          "points": [
-            "c125",
-            "c130"
-          ],
-          "properties": {
-            "length": 3.447
-          }
-        },
-        "e132": {
-          "kind": "flash",
-          "points": [
-            "c127",
-            "c126"
-          ],
-          "properties": {
-            "length": 3.359
-          }
-        },
-        "e133": {
-          "kind": "hip",
-          "points": [
-            "c127",
-            "c128"
-          ],
-          "properties": {
-            "length": 3.596
-          }
-        },
-        "e134": {
-          "kind": "eave",
-          "points": [
-            "c129",
-            "c128"
-          ],
-          "properties": {
-            "attachments": [
-              "gutter"
-            ],
-            "length": 8.43
-          }
-        },
-        "e139": {
-          "kind": "eave",
-          "points": [
-            "c129",
-            "c131"
-          ],
-          "properties": {
-            "attachments": [
-              "gutter"
-            ],
-            "length": 2.509
-          }
-        },
-        "e135": {
-          "kind": "hip",
-          "points": [
-            "c126",
-            "c129"
-          ],
-          "properties": {
-            "length": 3.596
-          }
-        },
-        "e140": {
-          "kind": "stepflash",
-          "points": [
-            "c126",
-            "c131"
-          ],
-          "properties": {
-            "length": 2.584
-          }
-        },
-        "e136": {
-          "kind": "rake",
-          "points": [
-            "c123",
-            "c130"
-          ],
-          "properties": {
-            "length": 3.454
-          }
-        },
-        "e141": {
-          "kind": "stepflash",
-          "points": [
-            "c132",
-            "c127"
-          ],
-          "properties": {
-            "length": 2.576
-          }
-        },
-        "e142": {
-          "kind": "eave",
-          "points": [
-            "c128",
-            "c132"
-          ],
-          "properties": {
-            "attachments": [
-              "gutter"
-            ],
-            "length": 2.509
-          }
-        },
-        "e143": {
-          "kind": "hip",
-          "points": [
-            "c133",
-            "c134"
-          ],
-          "properties": {
-            "length": 0.447
-          }
-        },
-        "e149": {
-          "kind": "flat-roof",
-          "points": [
-            "c133",
-            "c138"
-          ],
-          "properties": {
-            "length": 0.382
-          }
-        },
-        "e144": {
-          "kind": "eave",
-          "points": [
-            "c134",
-            "c135"
-          ],
-          "properties": {
-            "length": 1.834
-          }
-        },
-        "e153": {
-          "kind": "eave",
-          "points": [
-            "c134",
-            "c140"
-          ],
-          "properties": {
-            "length": 0.606
-          }
-        },
-        "e145": {
-          "kind": "hip",
-          "points": [
-            "c135",
-            "c136"
-          ],
-          "properties": {
-            "length": 0.446
-          }
-        },
-        "e150": {
-          "kind": "eave",
-          "points": [
-            "c135",
-            "c139"
-          ],
-          "properties": {
-            "length": 0.617
-          }
-        },
-        "e146": {
-          "kind": "flat-roof",
-          "points": [
-            "c136",
-            "c133"
-          ],
-          "properties": {
-            "length": 1.369
-          }
-        },
-        "e147": {
-          "kind": "flat-roof",
-          "points": [
-            "c136",
-            "c137"
-          ],
-          "properties": {
-            "length": 0.387
-          }
-        },
-        "e148": {
-          "kind": "flat-roof",
-          "points": [
-            "c138",
-            "c137"
-          ],
-          "properties": {
-            "length": 1.369
-          }
-        },
-        "e151": {
-          "kind": "stepflash",
-          "points": [
-            "c139",
-            "c137"
-          ],
-          "properties": {
-            "length": 0.382
-          }
-        },
-        "e152": {
-          "kind": "stepflash",
-          "points": [
-            "c140",
-            "c138"
-          ],
-          "properties": {
-            "length": 0.384
+            "length": 8.015
           }
         }
       },
@@ -993,225 +393,60 @@
           "kind": "roof",
           "edges": [
             [
-              "e115",
-              "e116",
-              "e117",
-              "e118",
-              "e119",
-              "e120"
+              "e110",
+              "e111",
+              "e112"
             ]
           ],
           "properties": {
             "material": "asphalt",
-            "pitch": 8,
-            "area": 47.826
+            "pitch": 5,
+            "area": 17.636
           }
         },
         "surface6": {
           "kind": "roof",
           "edges": [
             [
-              "e121",
-              "e122",
-              "e123",
-              "e119"
+              "e113",
+              "e114",
+              "e111"
             ]
           ],
           "properties": {
             "material": "asphalt",
-            "pitch": 8,
-            "area": 23.21
+            "pitch": 5,
+            "area": 17.632
           }
         },
         "surface7": {
           "kind": "roof",
           "edges": [
             [
-              "e124",
-              "e125",
               "e115",
-              "e126"
+              "e116",
+              "e113"
             ]
           ],
           "properties": {
             "material": "asphalt",
-            "pitch": 8,
-            "area": 22.243
+            "pitch": 5,
+            "area": 17.626
           }
         },
         "surface8": {
           "kind": "roof",
           "edges": [
             [
-              "e122",
-              "e125",
-              "e127",
-              "e128",
-              "e129",
-              "e130",
-              "e131"
+              "e117",
+              "e115",
+              "e110"
             ]
           ],
           "properties": {
             "material": "asphalt",
-            "pitch": 8,
-            "area": 15.38
-          }
-        },
-        "surface9": {
-          "kind": "roof",
-          "edges": [
-            [
-              "e132",
-              "e133",
-              "e134",
-              "e135"
-            ]
-          ],
-          "properties": {
-            "material": "metal",
-            "pitch": 2,
-            "area": 15.034
-          }
-        },
-        "surface10": {
-          "kind": "roof",
-          "edges": [
-            [
-              "e136",
-              "e137",
-              "e127"
-            ]
-          ],
-          "properties": {
-            "material": "asphalt",
-            "pitch": 8,
-            "area": 4.955
-          }
-        },
-        "surface11": {
-          "kind": "roof",
-          "edges": [
-            [
-              "e137",
-              "e138",
-              "e128"
-            ]
-          ],
-          "properties": {
-            "material": "asphalt",
-            "pitch": 8,
-            "area": 4.946
-          }
-        },
-        "surface12": {
-          "kind": "roof",
-          "edges": [
-            [
-              "e135",
-              "e139",
-              "e140"
-            ]
-          ],
-          "properties": {
-            "material": "metal",
-            "pitch": 2,
-            "area": 3.241
-          }
-        },
-        "surface13": {
-          "kind": "roof",
-          "edges": [
-            [
-              "e141",
-              "e142",
-              "e133"
-            ]
-          ],
-          "properties": {
-            "material": "metal",
-            "pitch": 2,
-            "area": 3.232
-          }
-        },
-        "surface14": {
-          "kind": "roof",
-          "edges": [
-            [
-              "e120",
-              "e123",
-              "e129",
-              "e126"
-            ]
-          ],
-          "properties": {
-            "material": "membrane",
-            "pitch": 0,
-            "area": 2.822
-          }
-        },
-        "surface15": {
-          "kind": "roof",
-          "edges": [
-            [
-              "e143",
-              "e144",
-              "e145",
-              "e146"
-            ]
-          ],
-          "properties": {
-            "material": "asphalt",
-            "pitch": 16,
-            "area": 0.609
-          }
-        },
-        "surface16": {
-          "kind": "roof",
-          "edges": [
-            [
-              "e146",
-              "e147",
-              "e148",
-              "e149"
-            ]
-          ],
-          "properties": {
-            "material": "membrane",
-            "pitch": 0,
-            "area": 0.526
-          }
-        },
-        "surface17": {
-          "kind": "roof",
-          "edges": [
-            [
-              "e150",
-              "e151",
-              "e147",
-              "e145"
-            ]
-          ],
-          "properties": {
-            "material": "asphalt",
-            "pitch": 16,
-            "area": 0.192
-          }
-        },
-        "surface18": {
-          "kind": "roof",
-          "edges": [
-            [
-              "e149",
-              "e152",
-              "e153",
-              "e143"
-            ]
-          ],
-          "properties": {
-            "material": "asphalt",
-            "pitch": 16,
-            "area": 0.19
+            "pitch": 5,
+            "area": 17.621
           }
         }
       },
@@ -1221,17 +456,7 @@
             "surface5",
             "surface6",
             "surface7",
-            "surface8",
-            "surface9",
-            "surface10",
-            "surface11",
-            "surface12",
-            "surface13",
-            "surface14",
-            "surface15",
-            "surface16",
-            "surface17",
-            "surface18"
+            "surface8"
           ]
         }
       }
